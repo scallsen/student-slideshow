@@ -11,6 +11,7 @@
 </head>
 <body>
 
+<!-- Change image links to URLs, host all images on another domain-->
   <div class="">
     <img class="mySlides" src="images/slide1.png" style="width:100%">
     <img class="mySlides" src="images/slide2.png" style="width:100%">
@@ -31,7 +32,7 @@
       myIndex++;
       if (myIndex > x.length) {myIndex = 1}
       x[myIndex-1].style.display = "block";
-      setTimeout(carousel, 2000); // Change image every 2 seconds
+      setTimeout(carousel, 10000); // Change image every 2 seconds
   }
   </script>
 
